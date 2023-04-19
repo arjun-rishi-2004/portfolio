@@ -217,7 +217,7 @@ position: fixed;
 
 
 }
-nav__close{
+.nav__close{
     position: absolute;
     right: 1.3rem;
     bottom: 0.5rem;
