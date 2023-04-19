@@ -247,7 +247,37 @@ color: var(--first-color);
 
 /*==================== HOME ====================*/
 
+.home__container{
+  gap: 1rem;
+}
+.home__content{
+  grid-template-columns: .5fr 3fr;
+  padding-top: 3.5 rem;
+  align-items: center;
+  
+}
 
+.home__social{
+  display:grid;
+  grid-template-columns: max-content;
+  row-gap: 1rem;
+
+}
+.home__social-icon{
+  font-size: 1.25rem;
+  color: var(--first-color);
+}
+.home__social-icon:hover{
+  color:var(--first-color-alt);
+}
+
+.home__blob{
+  width: 200px;
+  fill: var(--first-color);
+}
+.home__blob-img{
+  width:170px;
+}
 /*==================== BUTTONS ====================*/
 
 
@@ -299,7 +329,7 @@ color: var(--first-color);
 
 /* For large devices */
 
-.home__social{
+/* .home__social{
   
   padding-top: 4.0%;
-}
+} */
