@@ -298,3 +298,8 @@ color: var(--first-color);
 
 
 /* For large devices */
+
+.home__social{
+  
+  padding-top: 4.0%;
+}
